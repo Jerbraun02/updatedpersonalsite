@@ -26,12 +26,7 @@ const Li = (props) => {
           </Link>
         </li>
         <li className='py-8 text-4xl'>
-          <Link
-            onClick={props.handleClick}
-            to='contact'
-            smooth='true'
-            duration={500}
-          >
+          <Link onClick={props.close} to='contact' smooth='true' duration={500}>
             Contact
           </Link>
         </li>
