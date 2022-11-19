@@ -7,14 +7,14 @@ const SkillsHolder = (props) => {
         <img
           src={props.img}
           alt='html'
-          className='w-28 hover:scale-110 duration-500 lg:w-36'
+          className='sm:w-10 lg:w-20 hover:scale-110 duration-500'
         />
-        <p className='pt-3 sm:max-w-[200px] lg:max-w-[500px] lg:text-2xl'>
+        <p className='pt-3 sm:max-w-[200px] lg:max-w-[500px] sm:text-sm lg:text-sm'>
           {props.txt}
         </p>
       </div>
       <div>
-        <p className='lg:text-lg'>{props.jobtxt}</p>
+        <p className='text-sm'>{props.jobtxt}</p>
       </div>
     </div>
   )
