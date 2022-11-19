@@ -6,7 +6,7 @@ const SkillsHolder = (props) => {
       <img
         src={props.img}
         alt='html'
-        className='w-28 mx-auto hover:scale-110 duration-500'
+        className='sm:w-10 lg:w-20 mx-auto hover:scale-110 duration-500'
       />
       <p>{props.txt}</p>
     </div>
