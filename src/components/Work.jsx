@@ -7,15 +7,15 @@ import SHOE from '../assets/shoe.png'
 
 const Work = () => {
   return (
-    <div name='work' className='bg-primary w-full h-[1800px] flex'>
-      <div className='max-w-[800px] lg:max-w-[1200px] mx-auto flex flex-col justify-center'>
+    <div name='work' className='bg-primary w-full h-fit flex'>
+      <div className='max-w-[600px] lg:max-w-[1000px] mx-auto'>
         <div className='pl-10 flex flex-col '>
           <div>
             <p className='text-4xl text-[#fff] font-semibold border-b-4 border-text inline'>
               Work
             </p>
-            <p className='text-[#fff] py-4 text-xl'>
-              Here are some of the companies I've worked/interned for:
+            <p className='text-[#fff] py-4 text-md lg:text-xl duration-300'>
+              Here is my prior intership/work experience:
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ const Work = () => {
           <WorkHolder
             img={SHOE}
             txt='Sneaker Reseller - Current'
-            jobtxt='Working to generate profit from reselling limited sneakers and other apparel. Worked with sneaker software companies to help customers use their software properly. Built relationships in the sneaker software and resale community.'
+            jobtxt='Worked with sneaker software companies to help customers use their software properly. Built relationships in the sneaker software and resale community.'
           />
           <WorkHolder
             img={SYTE}
