@@ -12,12 +12,12 @@ const About = () => {
           </div>
           <div />
           <div>
-            <p className='sm:text-xl lg:text-4xl font-semibold'>
+            <p className='sm:text-xl lg:text-3xl font-semibold'>
               Hi. I'm Jeremy, nice to meet you. Welcome to my site!
             </p>
           </div>
           <div>
-            <p className='sm:text-xl lg:text-3xl font-thin'>
+            <p className='sm:text-xl lg:text-2xl font-thin'>
               I'm a frontend developer(soon to be fullstack B"H) living in New
               York. I pride myself on my ability to create beautiful &
               functional websites. Please scroll down and check out some of my
