@@ -4,7 +4,7 @@ import Button from './Button'
 const Contact = () => {
   return (
     <div name='contact' className='bg-primary h-screen'>
-      <div className='sm:max-w-[600px] lg:max-w-[1000px] h-full mx-auto flex flex-col justify-center duration-500'>
+      <div className='sm:max-w-[600px] lg:max-w-[800px] h-full mx-auto flex flex-col justify-center duration-500'>
         <div className='pl-10'>
           <div>
             <p className='text-4xl text-[#fff] font-semibold border-b-4 border-text inline'>
