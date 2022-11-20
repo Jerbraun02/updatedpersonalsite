@@ -12,7 +12,7 @@ import SkillsHolder from './SkillsHolder'
 const Skills = () => {
   return (
     <div name='skills' className='bg-primary w-full h-screen'>
-      <div className='sm:max-w-[600px] lg:max-w-[1000px] h-full mx-auto flex flex-col justify-center'>
+      <div className='sm:max-w-[600px] lg:max-w-[800px] h-full mx-auto flex flex-col justify-center'>
         <div className='pl-10 flex flex-col'>
           <div>
             <p className='text-4xl text-[#fff] font-semibold border-b-4 border-text inline'>
