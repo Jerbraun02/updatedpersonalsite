@@ -10,7 +10,7 @@ const Work = () => {
     <>
       <div name='work' className='h-[100px] bg-primary' />
       <div className='bg-primary w-full h-fit flex'>
-        <div className='max-w-[600px] lg:max-w-[1000px] mx-auto'>
+        <div className='max-w-[600px] lg:max-w-[800px] mx-auto'>
           <div className='pl-10 flex flex-col '>
             <div>
               <p className='text-4xl text-[#fff] font-semibold border-b-4 border-text inline'>
